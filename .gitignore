@@ -1,0 +1,5 @@
+/chapter3/img
+*.R
+*.RData
+
+*.Rhistory
