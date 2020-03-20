@@ -58,8 +58,11 @@ summary.aov(fit)
 for (i in 1:k) {
   x=as.matrix(data[,i])
   y=(x-mean(x))/sd(x)
-  qqnorm(y,main =paste('X',i,'Q-Q Plot'))
+  fileName=paste('X',i,'Q-Qplot.png',sep = "")
+  png(filename = fileName)
+  qqnorm(y,main=paste('X',i,'Q-Q Plot'))
   qqline(y)
+  dev.off()
 }
 ##test
 library(goftest)
@@ -98,16 +101,22 @@ for (i in 1:k) {
   }
   d=sort(d)
   #Q-Q plot
+  fileName=paste('g',i,'Q-Qplot.png',sep = "")
+  png(filename = fileName)
   plot(d,chi2t,xlab = "马氏距离", ylab = "chi2分位数")
   main_=paste('第',i,'组 Q-Q 图')
   title(main_)
   abline(a=0,b=1)
+  dev.off()
   #P-P plot
   H=sort(H)
+  fileName=paste('g',i,'P-Pplot.png',sep = "")
+  png(filename = fileName)
   plot(pt,H,xlab = "P_t", ylab = "分布函数")
   main_=paste('第',i,'组 P-P 图')
   title(main_)
   abline(a=0,b=1)
+  dev.off()
 }
 
 # end
