@@ -14,11 +14,13 @@
 
 ## 绘图结果：
 判断每个分量是否是一元正态:
+
 ![](img/X1Q-Qplot.png)
 ![](img/X2Q-Qplot.png)
 ![](img/X3Q-Qplot.png)
 
 卡方图检验法:
+
 ![](img/g1P-Pplot.png)
 ![](img/g1Q-Qplot.png)
 
