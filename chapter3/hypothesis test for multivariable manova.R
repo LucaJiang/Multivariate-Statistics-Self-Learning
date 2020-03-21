@@ -1,29 +1,29 @@
-#P83-85 ¶à×ÜÌå¾ùÖµÏòÁ¿µÄ¼ìÑé Àý3.3.2
-#Ï°ÌâÈý 3-13
+#P83-85 å¤šæ€»ä½“å‡å€¼å‘é‡çš„æ£€éªŒ ä¾‹3.3.2
+#ä¹ é¢˜ä¸‰ 3-13
 # import data ----
 table3_3 <- read_delim("table3.3.txt", "\t", escape_double = FALSE, trim_ws = TRUE)
 data=table3_3
 
-#ÎÊÌâÒ»: Èý¸ö×é(g=1,2,3)µÄËÄÏîÖ¸±êÖ®¼äÓÐÎÞÏÔÖø²îÒì ----
+#é—®é¢˜ä¸€: ä¸‰ä¸ªç»„(g=1,2,3)çš„å››é¡¹æŒ‡æ ‡ä¹‹é—´æœ‰æ— æ˜¾è‘—å·®å¼‚ ----
 ##n_1=n_2=n_3=20, n=60, p=4, k=3
-##H_0: \miu^(1)=\miu^(2)=\miu^(3) vs H_1: \miu^(1) \miu^(2) \miu^(3)ÖÁÉÙÓÐÒ»¶Ô²»ÏàµÈ
-##ËÆÈ»±ÈÍ³¼ÆÁ¿\Lambda~\Lambda(p,n-k,k-1)
+##H_0: \miu^(1)=\miu^(2)=\miu^(3) vs H_1: \miu^(1) \miu^(2) \miu^(3)è‡³å°‘æœ‰ä¸€å¯¹ä¸ç›¸ç­‰
+##ä¼¼ç„¶æ¯”ç»Ÿè®¡é‡\Lambda~\Lambda(p,n-k,k-1)
 ##F~F(2p,2(n-p+1))
 n=60; p=4; k=3;
 x_bar=as.matrix(aggregate(data[,1:4],by=data[,5],FUN=mean))[,2:5]#group mean
 X_bar=colMeans(x_bar)#total mean
-A=matrix(0,p,p);T_=A #µ¥¶ÀTÏàµ±ÓÚTRUE, ËùÒÔ¼Ó_
+A=matrix(0,p,p);T_=A #å•ç‹¬Tç›¸å½“äºŽTRUE, æ‰€ä»¥åŠ _
 B=A;
 for (i in 1:k) {
   index=which(data[,p+1]==i)
-  # ×éÄÚÀë²îÕó
+  # ç»„å†…ç¦»å·®é˜µ
   A=A+t(as.matrix(data[index,1:p]))%*%as.matrix(data[index,1:p])-
     length(index)*x_bar[i,]%*%t(x_bar[i,])
   
-  # ×é¼äÀë²îÕó
+  # ç»„é—´ç¦»å·®é˜µ
   B=B+(x_bar[i,]-X_bar)%*%t(x_bar[i,]-X_bar)*length(index)
   
-  # ×ÜÀë²îÕó
+  # æ€»ç¦»å·®é˜µ
   temp=as.matrix(data[index,1:p]-matrix(1,length(index),1)%*%t(X_bar))
   T_i=matrix(0,p,p)
   for (j in 1:length(index)){
@@ -36,7 +36,7 @@ F_=(n-k-p+1)*(1-sqrt(Lambda))/p/sqrt(Lambda)
 pval=pf(F_,2*p,2*(n-p+1),lower.tail = F)
 
 
-#ÎÊÌâ¶þ: Èý¸ö×éÖ¸±êÖ®¼äµÄ²îÒì¾ßÌåÓÉÄÄ¼¸ÏîÖ¸±êÒýÆð ----
+#é—®é¢˜äºŒ: ä¸‰ä¸ªç»„æŒ‡æ ‡ä¹‹é—´çš„å·®å¼‚å…·ä½“ç”±å“ªå‡ é¡¹æŒ‡æ ‡å¼•èµ· ----
 pval_each=vector(length = p)
 for (i in 1:p) {
   f=(T_[i,i]-A[i,i])/(k-1)/A[i,i]*(n-k)
@@ -44,16 +44,16 @@ for (i in 1:p) {
 }
 pval_each #pval for each variable
 
-##¶àÔª·½²î·ÖÎö
+##å¤šå…ƒæ–¹å·®åˆ†æž
 y=as.matrix(data[,1:4])
-fit=manova(y~as.factor(as.matrix(data[,5])))#ÐèÒª×ª»»ÎªÒò×Ó±äÁ¿²ÅÄÜÓÃ×÷·Ö×é
+fit=manova(y~as.factor(as.matrix(data[,5])))#éœ€è¦è½¬æ¢ä¸ºå› å­å˜é‡æ‰èƒ½ç”¨ä½œåˆ†ç»„
 summary(fit)
 summary.aov(fit)
-# ×¢ÒâmanovaÊ¹ÓÃPillai-Bartlett Trace (also known as Pillai¡¯s trace)
-# ¶ø²»ÊÇÍþ¶û¿ËË¹LAMBDAÍ³¼ÆÁ¿, ËùÒÔ½á¹ûÓÐÉÙÐí²»Í¬!
+# æ³¨æ„manovaä½¿ç”¨Pillai-Bartlett Trace (also known as Pillaiâ€™s trace)
+# è€Œä¸æ˜¯å¨å°”å…‹æ–¯LAMBDAç»Ÿè®¡é‡, æ‰€ä»¥ç»“æžœæœ‰å°‘è®¸ä¸åŒ!
 # ref: https://gaopinghuang0.github.io/2017/11/20/MANOVA-notes-and-R-code
 
-# ÎÊÌâÈý: ¶ÔÃ¿¸ö·ÖÁ¿¼ìÑéÊÇ·ñÊÇÒ»ÔªÕýÌ¬ ----
+# é—®é¢˜ä¸‰: å¯¹æ¯ä¸ªåˆ†é‡æ£€éªŒæ˜¯å¦æ˜¯ä¸€å…ƒæ­£æ€ ----
 ##qqnorm
 for (i in 1:k) {
   x=as.matrix(data[,i])
@@ -83,17 +83,17 @@ ad.pval
 cvm.pval
 shapiro.pval
 
-#ÎÊÌâËÄ: ÀûÓÃ\chi-squreÍ¼¼ìÑé·¨¶ÔÈý×éÊý¾Ý·Ö±ð¼ìÑéÊÇ·ñÀ´×ÔËÄÔªÕýÌ¬·Ö²¼
+#é—®é¢˜å››: åˆ©ç”¨\chi-squreå›¾æ£€éªŒæ³•å¯¹ä¸‰ç»„æ•°æ®åˆ†åˆ«æ£€éªŒæ˜¯å¦æ¥è‡ªå››å…ƒæ­£æ€åˆ†å¸ƒ
 for (i in 1:k) {
   index=which(data[,p+1]==i)
-  ni=length(index)#µÚi×éÊýÁ¿n_i
+  ni=length(index)#ç¬¬iç»„æ•°é‡n_i
   s=cov(data[index,1:p])
   invs=solve(s)
-  d=vector(length = ni)#ÂíÊÏ¾àÀë
-  chi2t=d#·ÖÎ»Êý
-  pt=d;#¸ÅÂÊ
+  d=vector(length = ni)#é©¬æ°è·ç¦»
+  chi2t=d#åˆ†ä½æ•°
+  pt=d;#æ¦‚çŽ‡
   H=d;#value of cdf
-  for (j in 1:ni) { #¼ÆËãÂíÊÏ¾àÀëºÍ·ÖÎ»Êý
+  for (j in 1:ni) { #è®¡ç®—é©¬æ°è·ç¦»å’Œåˆ†ä½æ•°
     d[j]=as.matrix(data[index[j],1:p]-X_bar)%*%invs%*%t(data[index[j],1:p]-X_bar)
     pt[j]=(j-.5)/ni
     chi2t[j]=qchisq(pt[j],p)
@@ -103,8 +103,8 @@ for (i in 1:k) {
   #Q-Q plot
   fileName=paste('g',i,'Q-Qplot.png',sep = "")
   png(filename = fileName)
-  plot(d,chi2t,xlab = "ÂíÊÏ¾àÀë", ylab = "chi2·ÖÎ»Êý")
-  main_=paste('µÚ',i,'×é Q-Q Í¼')
+  plot(d,chi2t,xlab = "é©¬æ°è·ç¦»", ylab = "chi2åˆ†ä½æ•°")
+  main_=paste('ç¬¬',i,'ç»„ Q-Q å›¾')
   title(main_)
   abline(a=0,b=1)
   dev.off()
@@ -112,8 +112,8 @@ for (i in 1:k) {
   H=sort(H)
   fileName=paste('g',i,'P-Pplot.png',sep = "")
   png(filename = fileName)
-  plot(pt,H,xlab = "P_t", ylab = "·Ö²¼º¯Êý")
-  main_=paste('µÚ',i,'×é P-P Í¼')
+  plot(pt,H,xlab = "P_t", ylab = "åˆ†å¸ƒå‡½æ•°")
+  main_=paste('ç¬¬',i,'ç»„ P-P å›¾')
   title(main_)
   abline(a=0,b=1)
   dev.off()
