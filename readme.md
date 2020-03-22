@@ -33,10 +33,10 @@
   * 我先跳过第四章了, 因为这本书的符号和上学期的回归不一样, 看得好累
 * [第五章 判别分析](/chapter5)
     * [距离判别法](/chapter5/discriminant%20analysis_dist.R)
-    * [其他方法](/chapter5/discriminant%20analysis_bayes_gendist_fisher.R):
-      * 广义平方距离判别法;
-      * lda(Linear Discriminant Analysis);
-      * qda(Quadratic Discriminant Analysis).
+    * [其他方法](/chapter5/discriminant%20analysis_bayes_gendist_fisher.R)
+      * 广义平方距离判别法
+      * lda(Linear Discriminant Analysis)
+      * qda(Quadratic Discriminant Analysis)
 * [第六章 聚类分析](/chapter6)
   * todo
 
