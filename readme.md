@@ -15,12 +15,13 @@
 
 推荐阅读:
 * R语言实战(第二版), Robert I. Kabacoff.
-* 多元统计分析(第四版), 何晓群.
 * 实用多元统计分析(第六版), Richard A. Johnson.
 ~~~
-说明:教材例题只给了SAS代码, R语言实战是很好的补充;
-     私以为何晓群的多元所用符号比高慧璇人性化多了,
-     如果不是据说上课用ghx的书我就看hxq了...;
+说明:教材例题只给了SAS代码, R语言实战是很好的补充, 
+     而且讲得比这本书清楚;
+
+     更新: 删去了何晓群多元统计的推荐;
+
      Johnson是豆瓣推荐的, 不过我读得感觉不是很适应。
 ~~~
 
@@ -38,5 +39,6 @@
       * lda(Linear Discriminant Analysis)
       * qda(Quadratic Discriminant Analysis)
 * [第六章 聚类分析](/chapter6)
-  * todo
+  * [系统聚类(层次聚类)](chapter6/hierarchical%20agglomerative%20clustering.R)
+  * 有序样品聚类(最优分割法)
 
