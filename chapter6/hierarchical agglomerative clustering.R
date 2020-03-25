@@ -59,6 +59,7 @@ library(NbClust)
 devAskNewPage(ask=T)
 nc=NbClust(data[,1:p+1],distance ="euclidean",method ="average")
 barplot(table(nc$best.n[1,]))
+#谷歌了一下, 根据我的判断, 这个数据不能被这个函数处理
 
 
 #确定各类成员----
