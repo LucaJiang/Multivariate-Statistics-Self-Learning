@@ -4,7 +4,7 @@
 
 ## 目录
 * [**课程教材**](#课程教材)
-* [**作业代码**](#作业代码)
+* [**例题作业代码**](#作业代码)
 
 
 ## 课程教材
@@ -14,6 +14,9 @@
 配套资料：课程网站上有ppt、例题SAS代码和部分习题解答。
 
 推荐阅读:
+* [An Introduction to Statistical Learning
+with Applications in R, Gareth James](
+http://faculty.marshall.usc.edu/gareth-james/ISL/)
 * R语言实战(第二版), Robert I. Kabacoff.
 * 实用多元统计分析(第六版), Richard A. Johnson.
 ~~~
