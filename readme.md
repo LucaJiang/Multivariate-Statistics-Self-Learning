@@ -49,5 +49,8 @@ http://faculty.marshall.usc.edu/gareth-james/ISL/)
 
 
 * [第七章 主成分分析](chapter7)
-  * #todo 
+  * [主成分分析 指标分类 主成分回归](chapter7/pca.R)
+  
+* [第八章 因子分析](chapter8)
+  * tudo
 
