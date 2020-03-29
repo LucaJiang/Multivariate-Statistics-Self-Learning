@@ -54,5 +54,11 @@ http://faculty.marshall.usc.edu/gareth-james/ISL/)
 * [第八章 因子分析](chapter8)
   * [因子分析](chapter8/fa.R)
 
-* [第九章 对应分析方法](chapter8)
-  ##todo* [对应分析](chapter9/fa.R)
+* [第九章 对应分析方法](chapter9)
+  * [对应分析](chapter9/ca.R)
+
+* [第十章 典型相关分析](chapter10)
+  * [典型相关分析](chapter10/ca.R)
+  
+* [第十一章 偏最小二乘回归分析](chapter11)
+  #todo* [偏最小二乘回归分析](chapter11/ca.R)
