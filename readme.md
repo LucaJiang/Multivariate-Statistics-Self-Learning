@@ -61,4 +61,6 @@ http://faculty.marshall.usc.edu/gareth-james/ISL/)
   * [典型相关分析](chapter10/ca.R)
   
 * [第十一章 偏最小二乘回归分析](chapter11)
-  #todo* [偏最小二乘回归分析](chapter11/ca.R)
+  * [偏最小二乘回归分析](chapter11/pls.R)
+  
+本项目暂时停止维护！

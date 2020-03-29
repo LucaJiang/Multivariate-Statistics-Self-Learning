@@ -1,26 +1,17 @@
-# 第十章 典型相关分析
-#todo!!!!
-canonical correlation analysis
+# 第十一章 偏最小二乘回归分析
 
-* 教材10.2节: 例10.2.1 矿区下部矿的典型相关分析
-* 教材10.3节: 例10.3.1 康复俱乐部成员测试的冗余分析
+教材11.2节 例11.2.1 康复俱乐部成员测试偏最小二乘回归分析
+
+** 建议参考: https://www.cnblogs.com/payton/p/5253035.html **
 
 文件夹内容说明:
 
 * *.RData文件为运行结果;
 * img文件为结果图;
-* cca.R 实现典型相关分析
-* corcoef.test.R 是网上搜到的假设检验函数
-* table10.1 矿区下部矿数据
-* table10.2 康复俱乐部成员测试数据
+* pls.R 实现偏最小二乘回归分析
+* table11.1 康复俱乐部成员测试数据
 
 ## 绘图结果：
-* 得分图:
+* pls:
   
-  ![得分](img/kuang_score1.png)
-
-  ![得分](img/kuang_score2.png)
-
-* 冗余分析：
-  
-  ![冗余](img/ry.png)
+  ![pls](img/pls.png)
