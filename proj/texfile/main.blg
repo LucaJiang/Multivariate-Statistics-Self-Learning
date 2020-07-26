@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/W32TeX)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: gbt7714-unsrt.bst
+Illegal, another \bibstyle command---line 19 of file main.aux
+ : \bibstyle
+ :          {gbt7714-numerical}
+I'm skipping whatever remains of this command
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: wpref.bib
+Warning--empty author and editor in 2018tujian
+Warning--empty author and editor in ghx
+Warning--empty author and editor in lihang
+You've used 18 entries,
+            4066 wiz_defined-function locations,
+            954 strings with 8486 characters,
+and the built_in function-call counts, 57101 in all, are:
+= -- 1847
+> -- 5734
+< -- 7428
++ -- 2476
+- -- 756
+* -- 470
+:= -- 8122
+add.period$ -- 55
+call.type$ -- 18
+change.case$ -- 44
+chr.to.int$ -- 1942
+cite$ -- 24
+duplicate$ -- 366
+empty$ -- 957
+format.name$ -- 170
+if$ -- 14771
+int.to.chr$ -- 1
+int.to.str$ -- 19
+missing$ -- 0
+newline$ -- 102
+num.names$ -- 45
+pop$ -- 2246
+preamble$ -- 1
+purify$ -- 18
+quote$ -- 0
+skip$ -- 5571
+stack$ -- 0
+substring$ -- 3149
+swap$ -- 31
+text.length$ -- 145
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 172
+warning$ -- 3
+while$ -- 185
+width$ -- 0
+write$ -- 233
+(There was 1 error message)

@@ -1,0 +1,114 @@
+\begin{thebibliography}{18}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{#1}
+\expandafter\ifx\csname urlstyle\endcsname\relax\relax\else
+  \urlstyle{same}\fi
+\providecommand{\href}[2]{\url{#2}}
+\providecommand{\doi}[1]{\href{https://doi.org/#1}{#1}}
+
+\bibitem[卢中秋\ 等(2019)卢中秋, 洪广亮, 孙承业, 陈潇荣,
+  李海蛟, 于学忠, et~al.]{zhongdu}
+卢中秋, 洪广亮, 孙承业, 等.
+\newblock 中国蘑菇中毒诊治临床专家共识\allowbreak[J].
+\newblock 临床急诊杂志, 2019\penalty0 (8):\penalty0 583-598.
+
+\bibitem[baidu(2018 (Accessed July 4, 2020))]{baike}
+BAIDU.
+\newblock 如何鉴别有毒蘑菇方法\allowbreak[M/OL].
+\newblock 2018 (Accessed July 4, 2020).
+\newblock
+  \url{https://jingyan.baidu.com/article/6079ad0ec4c25728ff86dbd2.html}.
+
+\bibitem[朱元珍\ 等(2008)朱元珍, 张辉仁, 祝英, 蒲凌奎, and
+  蒲训]{jianbie}
+朱元珍, 张辉仁, 祝英, 等.
+\newblock 古今毒蘑菇识别方法评价\allowbreak[J].
+\newblock 甘肃科学学报, 2008\penalty0 (4):\penalty0 40-44.
+
+\bibitem[rayborg(2011 (Accessed July 4, 2020))]{pic}
+RAYBORG.
+\newblock Mushroom attribute identification tutorial\allowbreak[M/OL].
+\newblock 2011 (Accessed July 4, 2020).
+\newblock \url{https://www.slideshare.net/rayborg/mushroom-tutorial}.
+
+\bibitem[Lenz et~al.(2020)Lenz, Wick, Braga, Garc{\'\i}a-Altares, Lackner,
+  Hertweck, Gressler, and Hoffmeister]{bru}
+LENZ~C, WICK~J, BRAGA~D, et~al.
+\newblock Injury-triggered blueing reactions of psilocybe “magic”
+  mushrooms\allowbreak[J].
+\newblock Angewandte Chemie, 2020, 132\penalty0 (4):\penalty0 1466-1470.
+
+\bibitem[Laessoe\ 等(2008)Laessoe, 莱瑟斯托马斯, 弗莱彻尼尔,
+  Fletcher, and 路特戈登]{mogutujian}
+LAESSOE~T, 莱瑟斯托马斯, 弗莱彻尼尔, 等.
+\newblock 自然珍藏图鉴丛书: 蘑菇\allowbreak[M].
+\newblock 北京: 中国友谊出版公司, 2008.
+
+\bibitem[201(2018)]{2018tujian}
+中国毒蕈图鉴\allowbreak[M].
+\newblock 浙江: 浙江科学技术出版社, 2018.
+
+\bibitem[茅群霞(2005)]{queshi}
+茅群霞.
+\newblock
+  缺失值处理统计方法的模拟比较研究及应用\allowbreak[D].
+\newblock 成都: 四川大学, 2005.
+
+\bibitem[Kabacoff(2015)]{ria}
+KABACOFF~R.
+\newblock Data, statistics, programming: R in action: Data analysis and
+  graphics with r\allowbreak[M].
+\newblock [S.l.]: Manning, 2015.
+
+\bibitem[ghx(2005)]{ghx}
+北京大学数学敎学系列丛书: 应用多元统计分析\allowbreak[M].
+\newblock 北京: 北京大学出版社, 2005.
+
+\bibitem[Izenman(2009)]{jiaocai}
+IZENMAN~A.
+\newblock Springer texts in statistics: Modern multivariate statistical
+  techniques: Regression, classification, and manifold learning\allowbreak[M].
+\newblock [S.l.]: Springer New York, 2009.
+
+\bibitem[lih(2018)]{lihang}
+统计学习方法(第二版)\allowbreak[M].
+\newblock 北京: 清华大学出版社, 2018.
+
+\bibitem[Quinlan(2014)]{c45}
+QUINLAN~J.
+\newblock Ebrary online: C4.5: Programs for machine learning\allowbreak[M].
+\newblock [S.l.]: Elsevier Science, 2014.
+
+\bibitem[Chen et~al.(2016)Chen and Guestrin]{xgb}
+CHEN~T, GUESTRIN~C.
+\newblock Xgboost: A scalable tree boosting system\allowbreak[C]//\allowbreak
+Proceedings of the 22nd acm sigkdd international conference on knowledge
+  discovery and data mining.
+\newblock [S.l.: s.n.], 2016: 785-794.
+
+\bibitem[Ghatak(2017)]{mlwr}
+GHATAK~A.
+\newblock Machine learning with r\allowbreak[M].
+\newblock [S.l.]: Springer Singapore, 2017.
+
+\bibitem[wikiBooks(2019 (Accessed July 6, 2020))]{jripwiki}
+WIKIBOOKS.
+\newblock Data mining algorithms in r/classification/jrip\allowbreak[M/OL].
+\newblock 2019 (Accessed July 6, 2020).
+\newblock
+  \url{https://en.wikibooks.org/wiki/Data_Mining_Algorithms_In_R/Classification/JRip}.
+
+\bibitem[Cohen(1995)]{cohen}
+COHEN~W~W.
+\newblock Fast effective rule induction\allowbreak[M]//\allowbreak
+Machine learning proceedings 1995.
+\newblock [S.l.]: Elsevier, 1995: 115-123.
+
+\bibitem[WenxinJiang（本文作者）(2020 (Accessed July 5, 2020))]{mycode}
+WenxinJiang（本文作者）.
+\newblock Multivariate Statistics Self Learning\allowbreak[M/OL].
+\newblock 2020 (Accessed July 5, 2020).
+\newblock
+  \url{https://github.com/LucaJiang/Multivariate-Statistics-Self-Learning}.
+
+\end{thebibliography}

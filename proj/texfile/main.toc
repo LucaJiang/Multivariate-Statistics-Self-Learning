@@ -1,0 +1,28 @@
+\contentsline {section}{\numberline {0}注释}{1}{section.0}%
+\contentsline {section}{\numberline {1}引言}{1}{section.1}%
+\contentsline {section}{\numberline {2}数据说明}{1}{section.2}%
+\contentsline {section}{\numberline {3}探索性分析}{1}{section.3}%
+\contentsline {section}{\numberline {4}预处理}{12}{section.4}%
+\contentsline {subsection}{\numberline {4.1}删除不必要的特征}{12}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}计算变量的重要性}{13}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}划分训练集与测试集}{13}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}缺失值处理}{13}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}编码为哑变量}{16}{subsection.4.5}%
+\contentsline {section}{\numberline {5}数据分析}{17}{section.5}%
+\contentsline {subsection}{\numberline {5.1}降维}{17}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}树}{18}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}其它}{23}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}总结}{26}{subsection.5.4}%
+\contentsline {section}{\numberline {6}结论}{26}{section.6}%
+\contentsline {subsection}{\numberline {6.1}后续工作}{27}{subsection.6.1}%
+\contentsline {section}{附录}{29}{section*.41}%
+\contentsline {section}{\numberline {A}正文未展示的分析}{29}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}聚类分析}{29}{subsection.A.1}%
+\contentsline {subsection}{\numberline {A.2}进一步探索特征间关系}{29}{subsection.A.2}%
+\contentsline {subsection}{\numberline {A.3}使用PCA对指标进行分类}{30}{subsection.A.3}%
+\contentsline {section}{\numberline {B}R 代码}{31}{appendix.B}%
+\contentsline {subsection}{\numberline {B.1}导入数据}{31}{subsection.B.1}%
+\contentsline {subsection}{\numberline {B.2}绘图}{31}{subsection.B.2}%
+\contentsline {subsection}{\numberline {B.3}预处理：缺失值填补与哑变量编码}{33}{subsection.B.3}%
+\contentsline {subsection}{\numberline {B.4}建立模型}{36}{subsection.B.4}%
+\contentsline {subsection}{\numberline {B.5}附录绘图代码}{44}{subsection.B.5}%
