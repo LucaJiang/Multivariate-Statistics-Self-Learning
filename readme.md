@@ -30,8 +30,8 @@ http://faculty.marshall.usc.edu/gareth-james/ISL/)
     * [多元数据正态性检验的卡方图检验法(P-P plot & Q-Q plot)](chapter3/hypothesis%20test%20for%20multivariable%20manova.R)
 
 
-* [第四章 回归分析(todo)](/)
-  * 我跳过了第四章, 回归分析这门课我已经修过, 总评97分.
+* 第四章 回归分析
+  * 我跳过了第四章, 回归分析这门课我已经修过.
 
 
 * [第五章 判别分析](/chapter5)
@@ -69,10 +69,11 @@ http://faculty.marshall.usc.edu/gareth-james/ISL/)
 
 很有意思的是, 2017级多元统计课程并没有选用这本书作为教材, 而是选用了Modern Multivariate Statistical Techniques--
 一本介绍现代多元统计的英文书作为教材. 课程内容包括: 主成分分析 线性判别分析 决策树 聚类分析 支持向量机 集成学习等.
-我个人很遗憾学院没安排讲高老师这本经典的书. 至于有人说我白忙乎了一个多月整这个GitHub开源项目, 我的观点是: 我学到了知识
-没有浪费时间, 这就够了. 以及, 感谢star本项目的同学给我的支持. 
+我个人很遗憾学院没安排讲高老师这本经典的书. 至于有人说我白忙乎了一个多月整这个GitHub开源项目, 我的观点是: 我学到了知识没有浪费时间, 这就够了.
+
+ 以及, 感谢star本项目的同学给我的支持. 
 
 大作业使用的模型包括: 主成分回归、线性判别分析、LASSO 回归、逐步回归、决策树（CART、C4.5、C5.0）、
-随机森林、XGBoost、kNN、SVM 、NN、RIPPER 和 PART. 涉及了数据的探索性分析,预处理,建模等内容. 如果感兴趣, 可以看看.
+随机森林、XGBoost、kNN、SVM 、NN、RIPPER 和 PART（两个类似决策树的模型，虽然很多教材都没涉及，但尤其适合我选择的数据集）. 涉及了数据的探索性分析,预处理,建模等内容. 如果感兴趣, 可以看看.
 
 附 Modern Multivariate Statistical Techniques 教材主页的网址: [https://astro.temple.edu/~alan/MMST/](https://astro.temple.edu/~alan/MMST/)
