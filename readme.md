@@ -67,6 +67,9 @@ http://faculty.marshall.usc.edu/gareth-james/ISL/)
 
 * [Kaggle 蘑菇数据集：辨别蘑菇是否可食用](proj)
 
+可以在此处围观大作业pdf：https://lucajiang.github.io/
+这是我的个人博客。平时作业也会逐步上传到这个博客里。
+
 很有意思的是, 2017级多元统计课程并没有选用这本书作为教材, 而是选用了Modern Multivariate Statistical Techniques--
 一本介绍现代多元统计的英文书作为教材. 课程内容包括: 主成分分析 线性判别分析 决策树 聚类分析 支持向量机 集成学习等.
 我个人很遗憾学院没安排讲高老师这本经典的书. 至于有人说我白忙乎了一个多月整这个GitHub开源项目, 我的观点是: 我学到了知识没有浪费时间, 这就够了.
