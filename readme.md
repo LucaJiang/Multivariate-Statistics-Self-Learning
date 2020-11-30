@@ -65,7 +65,8 @@ http://faculty.marshall.usc.edu/gareth-james/ISL/)
   * [偏最小二乘回归分析](chapter11/pls.R)
   
 ## 平时作业   
-平时作业将逐步上传到这个博客里 https://lucajiang.github.io/
+平时作业已全部上传到我的[博客](https://lucajiang.github.io/)里 
+在这个页面：https://lucajiang.github.io/2020/11/27/Multivariate-Statistics-HW/
   
 ## 期末大作业 
 
