@@ -85,3 +85,5 @@ http://faculty.marshall.usc.edu/gareth-james/ISL/)
 随机森林、XGBoost、kNN、SVM 、NN、RIPPER 和 PART（两个类似决策树的模型，虽然很多教材都没涉及，但尤其适合我选择的数据集）. 涉及了数据的探索性分析,预处理,建模等内容. 如果感兴趣, 可以看看.
 
 附 Modern Multivariate Statistical Techniques 教材主页的网址: [https://astro.temple.edu/~alan/MMST/](https://astro.temple.edu/~alan/MMST/)
+
+最近MMST主页崩了, 数据可以从 https://github.com/cran/MMST 下载.
