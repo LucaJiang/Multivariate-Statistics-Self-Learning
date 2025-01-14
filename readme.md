@@ -66,7 +66,7 @@ http://faculty.marshall.usc.edu/gareth-james/ISL/)
   
 ## 平时作业   
 平时作业已全部上传到我的[博客](https://lucajiang.github.io/)里 
-在这个页面：https://lucajiang.github.io/2020/11/27/Multivariate-Statistics-HW/
+在这个页面：[https://lucajiang.github.io/2020/11/27/Multivariate-Statistics-HW/](https://lucajiang.github.io/2020/12/01/Multivariate-Statistics-HW/)
   
 ## 期末大作业 
 
